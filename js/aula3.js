@@ -2,7 +2,7 @@ function estiloParagrafo() {
     const cores =[
         "lightBlue", // 0
         "purple", //1
-        "Gold",//2
+        "gold",//2
         "yellow",//
         "DeepPink",
         "orange"
@@ -11,9 +11,9 @@ function estiloParagrafo() {
 
     // Math.random(), Math.floor()
     let paragrafos = document.getElementsByTagName("p");
-    let corAplicada = cores [(Math.floor(Math.random()* cores.length))];
-
+    
     for(let i = 0; i <= paragrafos.length; i++){
+        let corAplicada = cores [(Math.floor(Math.random()* cores.length))];
         paragrafos[i].style.color = corAplicada;
     }
 }
