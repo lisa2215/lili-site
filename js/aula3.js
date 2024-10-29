@@ -3,7 +3,7 @@ function estiloParagrafo() {
         "lightBlue", // 0
         "purple", //1
         "gold",//2
-        "yellow",//
+        "OliveDrab",//
         "DeepPink",
         "orange"
 
