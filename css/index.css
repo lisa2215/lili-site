@@ -1,11 +1,15 @@
 h1 {
-    color: #fff;
+    color: #a53333;
     text-align: center;
     margin-top: 20px;
 }
 
 p, h3, li {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     margin-top: 20px;
+}
+
+.coracaoRosa{
+    width: 30px;
 }

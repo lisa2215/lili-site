@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AULA - JAVASCRIPT DOM</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="css/cabecalho-navegacao.css">
     <link rel="stylesheet" href="css/aula9.css">
 </head>
@@ -37,13 +37,16 @@
             </label>
             <label>
                 Resposta:
-                <input type="tel" name="telefone" id="telefone" placeholder="Insira sua resposta">
+                <input type="text" name="resposta" id="resposta" placeholder="Insira sua resposta">
             </label>
-            <input type="submit" value="Enviar formulário">
+            <input onclick ="saudacoes()"type="submit" value="Enviar formulário">            
         </form>
     </main>
     <script src="js/aula9.js"></script>
     <script>
+        function saudacoes(){
+            alert("PARABÉNS, AGORA VAI CASAR COM A LISA!!!!!!!!!!.")
+        }
           document.getElementsByTagName("body")[0].style.backgroundColor = "pink";
     </script>
 </body>

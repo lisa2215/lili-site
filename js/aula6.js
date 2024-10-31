@@ -21,11 +21,11 @@
 const tagImagem = document.getElementById("imagem-amor");
 
 function amor1() {
-    tagImagem.src = "/img/027.png";
+    tagImagem.src = "img/027.png";
 }
 
 function amor2() {
-    tagImagem.src = "/img/022.png";
+    tagImagem.src = "img/022.png";
 }
 
 tagImagem.addEventListener("mouseover", amor2);

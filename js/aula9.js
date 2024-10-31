@@ -2,19 +2,19 @@ function enviarFormulario() {
     // primeira maneira (Não otimizada)
     let nome = document.querySelector("input").value;
     let email = document.querySelector(".email").value;
-    let telefone = document.querySelector("#telefone").value;
+    let resposta = document.querySelector("#resposta").value;
     
     
     const pessoaDTO = {
         "nome": document.querySelectorAll("input")[0].value,
         "email": document.querySelectorAll("input")[1].value,
-        "Telefone": document.querySelectorAll("input")[2].value
+        "Resposta": document.querySelectorAll("input")[2].value
 
     }
 
-    alert(nome, email, telefone);
+    alert(nome, email, resposta);
     alert(pessoaDTO);
 }
 
 
-let telefone2 = document.querySelector(`[placeholder = "Insira seu telefone"]`).value;
+let Resposta2 = document.querySelector(`[placeholder = "Insira sua resposta"]`).value;
